@@ -26,6 +26,12 @@ You need something to run Flask app in for production. We recommend the nginx an
 
 Don't forget to update the Twilio account details and the server Twilio must callback to for its XML file.
 
+## Run it!
+
+	$ python snappyconfirm.py
+
+Its now running on [http://yourserver:5000/ticket/created](http://yourserver:5000/ticket/created)
+
 ## Software is never done, just shipped.
 
 This app is unsupported but pull-requests are always welcome. Enjoy!
